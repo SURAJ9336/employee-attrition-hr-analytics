@@ -119,8 +119,9 @@ Allows users to download prediction history as CSV reports.
 employee-attrition-hr-analytics/
 │
 ├── app.py
-├── dashboard.py
-├── login.py
+|--- pages / 
+      ├── dashboard.py
+      ├── login.py
 ├── model_training.ipynb
 ├── history.csv
 ├── WA_Fn-UseC_-HR-Employee-Attrition.csv
@@ -135,34 +136,19 @@ employee-attrition-hr-analytics/
 # Screenshots
 
 ## Login Page
-
-
 ---
-
 ## Employee Prediction Page
-
-
-
 ---
-
 ## HR Analytics Dashboard
-
-
-
 ---
-
 ## Prediction History
-
-
-
 ---
-
 # Installation and Setup
 
 ## Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/employee-attrition-hr-analytics.git
+git clone https://github.com/suraj9336/employee-attrition-hr-analytics.git
 ```
 
 ---
