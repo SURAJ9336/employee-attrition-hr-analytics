@@ -13,7 +13,7 @@ This project is designed for academic, research, and educational purposes and ca
 # Live Demo
 
 🔗 Deployment Link:  
-
+https://attrisense-ai.streamlit.app/
 
 
 
