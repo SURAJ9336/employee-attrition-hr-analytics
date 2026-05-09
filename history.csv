@@ -1,0 +1,5 @@
+Age,MonthlyIncome,Prediction,Confidence
+33,15000,Leave,59.0
+38,15000,Stay,50.0
+42,18000,Stay,63.0
+30,15000,Leave,53.0
