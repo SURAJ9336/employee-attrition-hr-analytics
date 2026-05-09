@@ -7,6 +7,42 @@ import streamlit as st
 
 import matplotlib.pyplot as plt  # If needed
 
+
+
+# -----------------------------
+# LOGIN SYSTEM
+# -----------------------------
+
+if "logged_in" not in st.session_state:
+    st.session_state.logged_in = False
+
+if not st.session_state.logged_in:
+
+    st.title("AttriSense AI Login")
+
+    username = st.text_input("Username")
+    password = st.text_input(
+        "Password",
+        type="password"
+    )
+
+    if st.button("Login"):
+
+        if username == "admin" and password == "admin123":
+
+            st.session_state.logged_in = True
+            st.rerun()
+
+        else:
+            st.error("Invalid Username or Password")
+
+    st.stop()
+
+
+
+
+
+
 df = pd.read_csv("WA_Fn-UseC_-HR-Employee-Attrition.csv")
 
 # Binary encoding
